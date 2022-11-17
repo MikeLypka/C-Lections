@@ -1,0 +1,15 @@
+/Users/michaeillypka/Documents/GeekBrains/03 Introduction c#/Examples/C-Lections/Ex001_hello_console/bin/Debug/net7.0/Ex001_hello_console
+/Users/michaeillypka/Documents/GeekBrains/03 Introduction c#/Examples/C-Lections/Ex001_hello_console/bin/Debug/net7.0/Ex001_hello_console.deps.json
+/Users/michaeillypka/Documents/GeekBrains/03 Introduction c#/Examples/C-Lections/Ex001_hello_console/bin/Debug/net7.0/Ex001_hello_console.runtimeconfig.json
+/Users/michaeillypka/Documents/GeekBrains/03 Introduction c#/Examples/C-Lections/Ex001_hello_console/bin/Debug/net7.0/Ex001_hello_console.dll
+/Users/michaeillypka/Documents/GeekBrains/03 Introduction c#/Examples/C-Lections/Ex001_hello_console/bin/Debug/net7.0/Ex001_hello_console.pdb
+/Users/michaeillypka/Documents/GeekBrains/03 Introduction c#/Examples/C-Lections/Ex001_hello_console/obj/Debug/net7.0/Ex001_hello_console.csproj.AssemblyReference.cache
+/Users/michaeillypka/Documents/GeekBrains/03 Introduction c#/Examples/C-Lections/Ex001_hello_console/obj/Debug/net7.0/Ex001_hello_console.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaeillypka/Documents/GeekBrains/03 Introduction c#/Examples/C-Lections/Ex001_hello_console/obj/Debug/net7.0/Ex001_hello_console.AssemblyInfoInputs.cache
+/Users/michaeillypka/Documents/GeekBrains/03 Introduction c#/Examples/C-Lections/Ex001_hello_console/obj/Debug/net7.0/Ex001_hello_console.AssemblyInfo.cs
+/Users/michaeillypka/Documents/GeekBrains/03 Introduction c#/Examples/C-Lections/Ex001_hello_console/obj/Debug/net7.0/Ex001_hello_console.csproj.CoreCompileInputs.cache
+/Users/michaeillypka/Documents/GeekBrains/03 Introduction c#/Examples/C-Lections/Ex001_hello_console/obj/Debug/net7.0/Ex001_hello_console.dll
+/Users/michaeillypka/Documents/GeekBrains/03 Introduction c#/Examples/C-Lections/Ex001_hello_console/obj/Debug/net7.0/refint/Ex001_hello_console.dll
+/Users/michaeillypka/Documents/GeekBrains/03 Introduction c#/Examples/C-Lections/Ex001_hello_console/obj/Debug/net7.0/Ex001_hello_console.pdb
+/Users/michaeillypka/Documents/GeekBrains/03 Introduction c#/Examples/C-Lections/Ex001_hello_console/obj/Debug/net7.0/Ex001_hello_console.genruntimeconfig.cache
+/Users/michaeillypka/Documents/GeekBrains/03 Introduction c#/Examples/C-Lections/Ex001_hello_console/obj/Debug/net7.0/ref/Ex001_hello_console.dll
