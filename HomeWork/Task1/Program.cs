@@ -1,5 +1,10 @@
-﻿int numA = 5;
-int numB = 10;
+﻿Console.Write("Enter the first number: ");
+string a = Console.ReadLine();
+int numA = Convert.ToInt32(a);
+
+Console.Write("Enter the second number: ");
+string b = Console.ReadLine();
+int numB = Convert.ToInt32(b);
 
 int max = numA;
 
