@@ -1,7 +1,20 @@
 ﻿Console.Write("Enter a number: ");
-string n = Console.ReadLine();
-int nInt = Convert.ToInt32(n);
+int n = int.Parse(Console.ReadLine()!);
 
-for ([])[nInt % 2 == 0]) 
 
-Console.WriteLine(numbers);
+// for (int i = 1; i <= n; i % 2 == 0; i++)
+// {
+//     Console.WriteLine(i);
+// }
+
+int n2 = 1;
+if(n2 % 2 == 0)
+{
+while(n2 <= n)
+
+    Console.Write($"{n2} ");
+    n2 += 1;
+}
+
+
+
