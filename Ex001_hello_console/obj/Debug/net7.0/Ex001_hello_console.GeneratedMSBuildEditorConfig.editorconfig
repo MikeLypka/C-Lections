@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ex001_hello_console
-build_property.ProjectDir = /Users/michaeillypka/Documents/GeekBrains/03 Introduction c#/Examples/C-Lections/C-Lections/Ex001_hello_console/
+build_property.ProjectDir = /Users/michaeillypka/Documents/GeekBrains/03 Introduction c#/Git_C/C-Lections/Ex001_hello_console/
