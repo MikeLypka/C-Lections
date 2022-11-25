@@ -60,7 +60,10 @@
 
 Console.Write("Enter a number: ");
 int N = int.Parse(Console.ReadLine()!);
-
+if (N < 0)
+{
+    N = -N;
+}
 for (int i = 1; i <= N; i++)
 {
     Console.WriteLine(Math.Pow(i, 2));
