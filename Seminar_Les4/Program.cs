@@ -1,28 +1,29 @@
-﻿// // Console.Write("Enter a number: ");
-// // int userNum = int.Parse(Console.ReadLine()!); 
+﻿// Console.Write("Enter a number: ");
+// int userNum = int.Parse(Console.ReadLine()!); 
 
-// // int SumCount(int num){ // Начало метода
+// int SumCount(int num)
+// { // Начало метода
 
-// //     int Result = 0;
-// //     for (int i = 1; i <= num; i++)
-// //     {
-// //         Result += i;
-// //         // Console.Write($"{i} ");
-// //         // Console.WriteLine($"{Result} ");
-// //     }
-// //     return Result;
-// // }
+//     int Result = 0;
+//     for (int i = 1; i <= num; i++)
+//     {
+//         Result += i;
+//         Console.Write($"{i} ");
+//         Console.WriteLine($"{Result} ");
+//     }
+//     return Result;
+// }
 
-// // Console.WriteLine(SumCount(userNum));
+// Console.WriteLine(SumCount(userNum));
 
 
-// //Task 1 принимает на вход число нужно вывести сколько цифр в числе
+//Task 1 принимает на вход число нужно вывести сколько цифр в числе
 
 // Console.Write("Enter a number: ");
 // int num = int.Parse(Console.ReadLine()!);
 
-// int DigitCount(int num){
-//     // int DigitCount = Convert.ToInt32(Math.Log10(userNum) + 1);
+// int DigitCount(int num)
+// { // Начало метода
 //     int counter = 0;
 
 //     while (num > 0)
@@ -36,69 +37,53 @@
 // Console.WriteLine($"Number is consist of {DigitCount(num)} digits");
 
 //Task 2
-// int[] array = new int[8];
-// Mass(array);
-// Console.WriteLine($"Massive: {String.Join(" ", array)}");
+// Console.WriteLine("Enter a length: "); // введите длину массива
+// int User = int.Parse(Console.ReadLine()!); // ввод длины массива
 
-// int[] Mass(int[] array){
+// int[] array = new int[User]; // Длина массива вводится
+
+// Mass(array);
+// // Console.WriteLine($"Massive: {String.Join(" ", array)}");
+
+// int[] Mass(int[] array){ // Заполняем массив 8 случайными числами от 0 до 1)
 //     for (int i = 0; i < array.Length; i++){
-//         array[i] = new Random().Next(0, 2);
+//         array[i] = new Random().Next(2);
 //     }
 //     return array;
 // }
 
-// int[] array = Getnumber(8);
-// Console.WriteLine($"[{String.Join("-", array)}]");
-
-// int[] Getnumber(int size)
+// void PrintArray(int[] array) // метод, который выводит на печать массив
 // {
-//     int[] result = new int[size];
-//     for (int i = 0; i < size; i++)
-//     {
-//         result[i] = new Random().Next(2);
-//     }
-//     return result;
+//     Console.WriteLine($"Massive: [{String.Join(" ", array)}]");
 // }
+
+// PrintArray(array);
 
 // Task 3 Найти произведение всех элементов массива целых чисел, меньших заданного числа.
-// Размерность массива - 10. Заполнение массива осуществить случайными числами от 50 до 100.
+// Размерность массива - 10. 
+// Заполнение массива осуществить случайными числами от 50 до 100.
 
-Console.Write("Enter a number: ");
-int num = int.Parse(Console.ReadLine()!);
-// int[] array = MultNumbers(num);
-array(mass);
-Console.WriteLine($"Massive: {String.Join(" ", array)}");
-// Console.WriteLine($"Произведение эл-тов массива {String.Join(", ", array)} {MultArray}");
+int[] array = new int[10]; // Задаем массив размерностью 10
 
-int[] array(int num) // создал метод
-{   
-    int[] mass = new int[10]; // Создал пустой массив размером size
-    // int total = 0; //сумма перемноженных элементов массива
-
-    for (int i = 0; i < 10; i++)
-    {   mass[i] = new Random().Next(50, 101); // наполнил массив цефрами от 50 до 100
-        // if (mass[i] < num)
-        // {
-        //     total += mass[i] * mass[i + 1]; // результат произведения всех элементов массива, меньше num
-        // }
+int[] Mass(int[] array){ // Заполняем массив 10 случайными числами от 50 до 100)
+    for (int i = 0; i < array.Length; i++){
+        array[i] = new Random().Next(50, 101);
     }
-    return mass;
+    return array;
+}
+Mass(array);
+Console.WriteLine($"[{String.Join(" ", array)}]");
+Console.WriteLine("Enter a number: "); // запрашиваем число у пользователя
+int num = int.Parse(Console.ReadLine()!); // считываем введенное число
+
+int MultArray(int[] array, int number){ // Метод подсчета произведение чисел
+    int multiple = 1;
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i] < num) multiple *= array[i]; 
+        
+    }
+    return multiple;
 }
 
-// int MultArray(int[] array, int num)
-// {
-//     int total = 1; //сумма перемноженных элементов массива
-//     for (int i = 0; i < 10; i++)
-//     {   
-//         if (array[i] < num)
-//         {
-//             total += mass[i] * mass[i + 1];
-//         }
-//         mass[i] = new Random().Next(50, 101); // наполнил массив цефрами от 50 до 100
-//         // if (mass[i] < num)
-//         // {
-//         //     total += mass[i] * mass[i + 1]; // результат произведения всех элементов массива, меньше num
-//         // }
-//     }
-//     return total;
-// }
+Console.WriteLine($"Произведение элементов массива меньше {num}: {MultArray(array, num)}");
