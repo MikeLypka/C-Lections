@@ -4,18 +4,18 @@
 
 // 2, 4 -> 16
 
-Console.Write("Enter number A: ");
-int numA = int.Parse(Console.ReadLine()!);
-Console.Write("Enter number B: ");
-int numB = int.Parse(Console.ReadLine()!);
-int count = 0;
-int sum = 1;
+// Console.Write("Enter number A: ");
+// int numA = int.Parse(Console.ReadLine()!);
+// Console.Write("Enter number B: ");
+// int numB = int.Parse(Console.ReadLine()!);
+// int count = 0;
+// int sum = 1;
 
-while (count < numB) {
-    sum *= numA ;
-    count++;
-}
-Console.WriteLine(sum);
+// while (count < numB) {
+//     sum *= numA ;
+//     count++;
+// }
+// Console.WriteLine(sum);
 
 
 // Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
