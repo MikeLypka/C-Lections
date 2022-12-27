@@ -22,16 +22,12 @@
 //     }
 // }
 
-// int[,] matrix = new int[4, 4];
+// int[,] matrix = new int[4, 8];
 // FillArray(matrix);
 // PrintArray(matrix);
 
 // int[,] pic = new int[,]
-// {
-//     {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
-//     {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
-//     {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
-// };
+
 // {
 //     {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, },
 //     {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, },
@@ -72,23 +68,23 @@
     
 // }
 
-// void PaintImage(int row, int col)
+// void FillImage(int row, int col)
 // {
 //     if(pic[row, col] == 0) 
 //     {
 //         pic[row, col] = 1;
-//         PaintImage(row - 1, col);
-//         PaintImage(row, col - 1);
-//         PaintImage(row + 1, col);
-//         PaintImage(row, col + 1);
+//         FillImage(row - 1, col); // FillImage вызываем сам себя (рекурсия)
+//         FillImage(row, col - 1);
+//         FillImage(row + 1, col);
+//         FillImage(row, col + 1);
 //     }
 // }
 
 // PrintImage(pic);
-// PaintImage(13, 13);
+// FillImage(13, 13);
 // PrintImage(pic);
 
-// Factorial
+// // Factorial
 // double Factorial(int n)
 // {
 //     if (n == 1) return 1;
@@ -106,8 +102,8 @@ double Fibonacci(int n)
     else return Fibonacci(n - 1) + Fibonacci(n - 2);
 }
 
-for (int i = 1; i < 50; i++)
+for (int i = 1; i < 10; i++)
 {
     Console.WriteLine($"f({i}) - {Fibonacci(i)}");
-    // Console.WriteLine(Fibonacci(i));
+    Console.WriteLine(Fibonacci(i));
 }
