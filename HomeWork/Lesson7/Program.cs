@@ -156,9 +156,9 @@ void GetAverageNum(int[,] array)
         double total = 0;
         for (int j = 0; j < array.GetLength(0); j++) // Счетчик j по рядам
         {
-            total = array[i, j];
+            total += array[i, j];
         }
-        Console.Write($" {(total / array.GetLength(0)):f2}");
+        Console.WriteLine($" {(total / array.GetLength(0)):f2}");
     }
     Console.WriteLine();
 }
