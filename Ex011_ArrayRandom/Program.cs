@@ -20,11 +20,11 @@ void PrintArray(int[] massive)
     }
 }
 
-int FindIndex(int[] SomeArray, int find)
+int FindIndex(int[] SomeMassiv, int find)
 {
-    int lenght = SomeArray.Length;
+    int lenght = SomeMassiv.Length;
     int index = 0;
-    int position = -1;
+    int position = -1; // Общепринятый способ возрата элемента по умолчанию (типа если остается -1 то это означает "элемент на неайден")
     while (index < lenght)
     {
         if (SomeArray[index] == find)

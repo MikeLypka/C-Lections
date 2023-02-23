@@ -1,10 +1,9 @@
 ﻿int[] array = {1, 12, 34, 2, 65, 3, 2, 876, 31};
 
-int n = array.Length;
-int find = 2;
+int find = 31;
 int index = 0;
 
-while (index < n)
+while (index < array.Length)
 {
     if (array[index] == find) 
     {
